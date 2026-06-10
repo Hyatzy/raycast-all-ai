@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/icon.png" width="96" alt="Raycast All AI icon" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/readme-logo-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/readme-logo-light.png" />
+    <img src="assets/readme-logo-light.png" width="180" alt="Raycast All AI logo" />
+  </picture>
 </p>
 
 # Raycast All AI
