@@ -1,0 +1,44 @@
+{
+  "name": "raycast-all-ai",
+  "title": "Raycast All AI",
+  "description": "Chat with any OpenAI-compatible AI provider from Raycast.",
+  "icon": "icon.png",
+  "author": "hyatzy",
+  "license": "MIT",
+  "platforms": ["macOS"],
+  "categories": ["Productivity"],
+  "commands": [
+    {
+      "name": "chat",
+      "title": "Chat",
+      "description": "Chat with the selected AI provider and model.",
+      "mode": "view"
+    },
+    {
+      "name": "configure",
+      "title": "Configure Provider",
+      "description": "Configure API keys, provider, and model selection.",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.104.19",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^2.1.1",
+    "@types/node": "^22.15.29",
+    "@types/react": "^19.0.12",
+    "eslint": "^9.28.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "ray develop",
+    "build": "ray build -e dist",
+    "lint": "ray lint",
+    "fix-lint": "ray lint --fix",
+    "publish": "ray publish"
+  }
+}
